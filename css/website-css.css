@@ -45,3 +45,12 @@ header  {
 .row {
     margin: 0;
 }
+.dropdown {
+    background-color: #AB7B1B;
+    border-top: solid #63011d 1em;
+    border-bottom: solid #63011d 1em;
+    padding: 1em;
+}
+.main-info {
+    background-color: #FEE5C7;
+}
