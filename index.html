@@ -8,65 +8,42 @@
     <link rel="stylesheet" href="css/website-css.css">
 </head>
 <body>
-<header>
-    <div class="row">
-        <div class="col-xs-2 col-xs-offset-5">
-            <div class="circle">DS</div>
+<div class="container-fluid" id="main-container">
+    <header>
+        <div class="jumbotron page-info">
+            <img id="prof-pic" src="img/DanielStrolle2.jpg" alt="profile pic">
+            <h1>Daniel Strolle</h1>
+            <p>Software Developer</p>
+            <p>Java, Javascript, jQuery, MySQL, Bootstrap, CSS, HTML</p>
+            <p><a class="btn btn-custom btn-lg" href="/projects.html" role="button">Learn more</a></p>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-8 col-xs-offset-2">
-            <h1 class="display-3">Daniel Strolle</h1>
+    </header>
+    <main>
+        <div class="page-info col-xs-12">
+            <h1 class="section-title">About Me</h1>
+            <p></p>
         </div>
-    </div>
-</header>
-<main>
-    <div class="row dropdown">
-        <div class="language col-xs-3" id="html">
-            <a data-toggle="collapse" href="#collapse1">HTML</a>
-            <div id="collapse1" class="panel-collapse collapse">
-                <ul class="list-group">
-                    <li class="list-group-item">HTML elements and forms</li>
-                    <li class="list-group-item">Clean and concise code</li>
-                    <li class="list-group-item">Responsive web pages</li>
-                </ul>
+        <div class="page-info col-xs-12">
+            <h1 class="section-title">Projects</h1>
+            <div class="col-xs-12 col-md-6 example">
+                <h2>Springboot Blog</h2>
+                <p>Using a Spring framework, create an application that uses controllers, models, and repositories to present different views to the user. Implemented authentication security throught with configurations and tokens. Allows users to register an account with a unique username and then create blog posts.</p>
+                <p><a class="btn btn-custom btn-lg" href="https://github.com/danielstrolle/springboot-blog" role="button">View on Github</a></p>
+            </div>
+            <div class="col-xs-12 col-md-6 example">
+                <h2>DAB-lister</h2>
+                <p>Using Java, create an application that uses controllers, models, and DAOs to present different JSPs based on user actions. A mock-up with a twist based on ebay, allows users to register an account, then create ads for dabs. User can search through other posted dabs based off name or category</p>
+                <p><a class="btn btn-custom btn-lg" href="https://github.com/B-A-D/Mr-Adlister" role="button">View on Github</a></p>
+            </div>
+            <div class="col-xs-12 col-md-6 example">
+                TEST
+            </div>
+            <div class="col-xs-12 col-md-6 example">
+                TEST
             </div>
         </div>
-        <div class="language col-xs-3" id="css">
-            <a data-toggle="collapse" href="#collapse2">CSS</a>
-            <div id="collapse2" class="panel-collapse collapse">
-                <ul class="list-group">
-                    <li class="list-group-item">Box Model</li>
-                    <li class="list-group-item">Positioning</li>
-                    <li class="list-group-item">Selectors & Queries</li>
-                </ul>
-            </div>
-        </div>
-        <div class="language col-xs-3" id="js">
-            <a data-toggle="collapse" href="#collapse3">JavaScript</a>
-            <div id="collapse3" class="panel-collapse collapse">
-                <ul class="list-group">
-                    <li class="list-group-item">Conditionals & Switches</li>
-                    <li class="list-group-item">Arrays & Objects</li>
-                    <li class="list-group-item">BOM, DOM, & API</li>
-                </ul>
-            </div>
-        </div>
-        <div class="language col-xs-3" id="java">
-            <a data-toggle="collapse" href="#collapse4">Java</a>
-            <div id="collapse4" class="panel-collapse collapse">
-                <ul class="list-group">
-                    <li class="list-group-item">Console IO</li>
-                    <li class="list-group-item">Methods</li>
-                    <li class="list-group-item">Object Oriented Programming</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="row main-info">
-
-    </div>
-</main>
+    </main>
+</div>
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
