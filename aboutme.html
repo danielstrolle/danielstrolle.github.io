@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Daniel</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="css/website-css.css">
+</head>
+<body class="background-color">
+<div id="wrap">
+    <nav class="navbar navbar-default custom-nav center-text">
+        <div class="container-fluid  center-text">
+            <a class="top-links" href="projects.html">Projects</a>
+            <a class="top-links" href="index.html">Home</a>
+            <a class="top-links" href="aboutme.html" style="text-decoration: underline">About Me</a>
+        </div>
+    </nav>
+
+    <div class="jumbotron background-color info center-text" style="overflow: auto; padding: 4em">
+        <div class="col-xs-6 col-xs-offset-1" style="padding: 3em">
+            <h1>Daniel Strolle</h1>
+            <p>San Antonio</p>
+            <h3>
+                <a href="https://docs.google.com/document/d/e/2PACX-1vSAUEbQ2fq3gwVs6orvISyMzHTHzz5tMDQ83mA1qRZiziuROUg5FaDLl6WoegVGWFSlNuyl54gzgdyS/pub"
+                   download class="black">Download Resume</a>
+            </h3>
+            <button id="myBtn">View Resume</button>
+        </div>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <iframe class="col-xs-12 full"
+                        src="https://docs.google.com/document/d/e/2PACX-1vSAUEbQ2fq3gwVs6orvISyMzHTHzz5tMDQ83mA1qRZiziuROUg5FaDLl6WoegVGWFSlNuyl54gzgdyS/pub?embedded=true"></iframe>
+            </div>
+        </div>
+        <div class="col-xs-4 prof-pic">
+            <img id="prof-pic" src="img/DanielStrolle2.jpg" alt="profile pic">
+        </div>
+    </div>
+    <div class="col-xs-10 col-xs-offset-1 center-text">
+
+        <h1>About Me!</h1>
+        <h3>
+            Professional
+        </h3>
+        <div id="professional" class="info left-text col-xs-12">
+            <div class="col-xs-4">
+                <h3>Programming</h3>
+                <ul>
+                    <li>Java</li>
+                    <li>Javascript</li>
+                    <li>jQuery</li>
+                    <li>MySQL</li>
+                    <li>Bootstrap</li>
+                    <li>CSS</li>
+                    <li>HTML</li>
+                    <li>IntelliJ</li>
+                    <li>Sublime</li>
+                    <li>React (minimal experience)</li>
+                    <li>Python (minimal experience)</li>
+                </ul>
+            </div>
+            <div class="col-xs-4">
+                <h3>Education</h3>
+                <ul>
+                    <li><h4>Codeup</h4></li>
+                    <li>18-week Software Developer course</li>
+                    <li>600+ hours of immersive studies and real world application</li>
+                    <br>
+                    <li><h4>Texas A&M University</h4></li>
+                    <li>60 hours towards BA in Communications</li>
+                    <li>Coursework in Logic, Digital Marketing & Social Media Communications</li>
+                </ul>
+            </div>
+            <div class="col-xs-4">
+                <h3>Experience</h3>
+                <ul>
+                    <li><h4>Intech Southwest Services</h4></li>
+                    <li>Warehouse Technician</li>
+                    <li>Technology Deployment</li>
+                    <br>
+                    <li><h4>Jewish Community Center</h4></li>
+                    <li>Senior Counselor</li>
+                    <li>Forge and Maintain Relationships</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-10 col-xs-offset-1 center-text">
+        <h3>
+            Personal
+        </h3>
+        <div id="personal" class="left-text info col-xs-12">
+            <div class="col-xs-3">
+                <h3>Fitness</h3>
+                <ul>
+                    <li>Basketball</li>
+                    <li>Weight-Lifting</li>
+                    <li>Trying New Things</li>
+                    <li>Anything Active</li>
+                    <li>Stress Relief</li>
+                </ul>
+            </div>
+            <div class="col-xs-3">
+                <h3>Cooking</h3>
+                <ul>
+                    <li>Cooking With Others</li>
+                    <li>Eating My Own Food</li>
+                    <li>Trying New Recipes</li>
+                    <li>Breaking My Diet
+                        <br>
+                        (It would be rude to not eat my own food!)
+                    </li>
+                </ul>
+            </div>
+            <div class="col-xs-3">
+                <h3>Gaming</h3>
+                <ul>
+                    <li>PC Master Race</li>
+                    <li>Competitive Environment</li>
+                    <li>Being 'Too Loud'
+                        <br>
+                        (I call it Passion)
+                    </li>
+                    <li>CSGO & LOL</li>
+                </ul>
+            </div>
+            <div class="col-xs-3">
+                <h3>Fashion</h3>
+                <ul>
+                    <li>Fun To Dress Well
+                        <br>
+                        (Look Good, Feel Good)
+                    </li>
+                    <li>Sock Game Outrageous</li>
+                    <li>Shoe Game Not <em>That</em> Bad</li>
+                    <li>Experiment With Different Styles</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--FIND A WAY TO MAKE THIS LOOK BETTER, MAYBE JAVASCRIPT POP OUT MODAL?!?-->
+
+    <!--<div class="col-xs-12 center-text full">-->
+    <!--<h3>-->
+    <!--<a href="#resume" data-toggle="collapse" class="black">View Resume</a>-->
+    <!--</h3>-->
+
+    <!--<div id="resume" class="collapse info full col-xs-12">-->
+    <!--<iframe class="col-xs-12 full"-->
+    <!--src="https://docs.google.com/document/d/e/2PACX-1vSAUEbQ2fq3gwVs6orvISyMzHTHzz5tMDQ83mA1qRZiziuROUg5FaDLl6WoegVGWFSlNuyl54gzgdyS/pub?embedded=true"></iframe>-->
+    <!--</div>-->
+    <!--</div>-->
+</div>
+<footer class="custom-footer center-text">
+    <div class="col-xs-12 footer footer-head">
+        <h2>Contact Me!</h2>
+    </div>
+    <div class="col-xs-12 footer footer-body">
+        <a href="mailto:danielstrolle@gmail.com" class="top-links">danielstrolle@gmail.com</a>
+
+        <a href="https://github.com/danielstrolle" class="top-links">github.com/danielstrolle</a>
+
+        <a href="https://www.linkedin.com/in/danielstrolle/" class="top-links">linkedin.com/in/danielstrolle</a>
+
+    </div>
+</footer>
+<script src="js/js.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+</body>
+</html>
+
+
