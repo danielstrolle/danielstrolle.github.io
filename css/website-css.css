@@ -62,7 +62,7 @@ body {
 
 .top-links {
     color: white;
-    padding: 1em 2em;
+    padding: 1em 1em;
     font-size: 1.3em;
 }
 
@@ -112,6 +112,10 @@ body {
 
 .full {
     height: 100%
+}
+
+.big {
+    font-size: 1.3em;
 }
 
 .bigger {
@@ -167,7 +171,7 @@ html body {
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
+    width: 90%;
     height: 100%;
 }
 
@@ -183,4 +187,8 @@ html body {
     color: black;
     text-decoration: none;
     cursor: pointer;
+}
+
+.img-responsive {
+    display: inline;
 }
