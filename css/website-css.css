@@ -70,6 +70,16 @@ body {
     background-color: whitesmoke;
 }
 
+.bot-links {
+    color: white;
+    padding: 0 1em;
+    font-size: 1.3em;
+}
+
+.bot-links:hover {
+    background-color: whitesmoke;
+}
+
 .vh {
     height: 100vh;
 }
